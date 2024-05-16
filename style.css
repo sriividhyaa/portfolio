@@ -1,0 +1,40 @@
+ @import 
+url("https://fonts.googleapis.com/css2?family=Eczar:wght@400;500;600;700;800&f amily=Fraunces:opsz,wght@9..144,200;9..144,300;9..144,400;9..144,500;9..144,60 0;9..144,700&family=Work+Sans:wght@100;200;300;400;500;600;700;800&display=swa p"); 
+body { 
+background: #ffeed9; 
+font-family: "Work Sans", sans-serif; 
+} 
+h1, 
+h2, 
+h3 { 
+font-family: "Eczar", serif; 
+color: #403930; 
+} 
+.bg-c-dark { 
+background: #ffddbf; 
+} 
+.btn-color{ 
+background: #4E5E80; 
+} 
+.btn-color:hover{ 
+background: #ffddbf; 
+color: black !important; 
+} 
+.box{ 
+border-radius: 24px; 
+background: #FFF8F2;
+} 
+a{ 
+color: #4E5E80; 
+font-weight: 600; 
+line-height: 150%; 
+text-decoration: none; 
+} 
+.w-md-50 { 
+width: 50%; 
+} 
+@media screen and (max-width: 768px) { 
+.w-md-50 { 
+width: 100%; 
+} 
+} 
